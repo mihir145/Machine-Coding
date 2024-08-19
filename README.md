@@ -15,8 +15,8 @@
   </tr>
   <tr>
     <td>2</td>
-    <td>-</td>
-    <td>$${\color{red}Not\ Started}$$</td>
+    <td><a href="https://github.com/mihir145/Machine-Coding/tree/main/01_Accordion">Design Accordion</a></td>
+    <td>$${\color{blue}In\ Progress}$$</td>
     <td>-</td>
   </tr>
 </table>
