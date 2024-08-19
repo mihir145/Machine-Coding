@@ -16,7 +16,7 @@
   <tr>
     <td>2</td>
     <td><a href="https://github.com/mihir145/Machine-Coding/tree/main/01_Accordion">Design Accordion</a></td>
-    <td>$${\color{blue}In\ Progress}$$</td>
-    <td>-</td>
+    <td>$${\color{green}Completed}$$</td>
+    <td>19-8-2024</td>
   </tr>
 </table>
