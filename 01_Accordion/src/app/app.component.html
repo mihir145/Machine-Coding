@@ -1,0 +1,29 @@
+<div class="container">
+  <span>
+    <input
+      type="checkbox"
+      id="allow-multiple"
+      (click)="allowMutipleToggle()"
+      [checked]="allowMutliple == true"
+    />
+    <label for="allow-multiple">Allow Multiple</label>
+  </span>
+  <div
+    *ngFor="let item of accordion_items"
+    class="accordion accordion-{{ item.id }}"
+    [ngStyle]="{ height: item.defaultDisplay ? '25%' : '5%' }"
+  >
+    <div class="main">
+      <h2>{{ item.name }}</h2>
+      <span (click)="toggle(item.id)">+</span>
+    </div>
+    <p
+      class="description"
+      [ngStyle]="{ display: item.defaultDisplay ? '' : 'none' }"
+    >
+      {{ item.description }}
+    </p>
+  </div>
+</div>
+
+<p>{{ allowMutliple }}</p>
