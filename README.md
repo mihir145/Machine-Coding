@@ -19,4 +19,10 @@
     <td>$${\color{green}Completed}$$</td>
     <td>19-8-2024</td>
   </tr>
+  <tr>
+    <td>3</td>
+    <td><a href="https://github.com/mihir145/Machine-Coding/tree/main/02_Analog_Clock">Design Analog Clock</a></td>
+    <td>$${\color{blue}In\ Progress}$$</td>
+    <td>-</td>
+  </tr>
 </table>
